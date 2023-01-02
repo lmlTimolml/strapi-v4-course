@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_layout_featured_events",
+  "info": {
+    "displayName": "featuredEvent",
+    "icon": "bullhorn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "event": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::event.event"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "announcement": {
+      "type": "text"
+    }
+  }
+}

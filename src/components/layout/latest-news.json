@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_layout_latest_news",
+  "info": {
+    "displayName": "latestNews",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true,
+      "default": "Siste Nytt"
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "showImage": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

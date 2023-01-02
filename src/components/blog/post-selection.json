@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_blog_post_selections",
+  "info": {
+    "displayName": "postSelection",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    }
+  }
+}
